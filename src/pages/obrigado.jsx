@@ -12,7 +12,7 @@ export default function Home() {
 
     return (
         <>
-            {/* <Pixel name='FACEBOOK_PIXEL_1' /> */}
+            <Pixel name='FACEBOOK_PIXEL_1' />
             <div className={styles.main}>
 
                 <div className={styles.wapper}>
