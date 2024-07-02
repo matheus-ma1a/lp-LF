@@ -28,7 +28,7 @@ export default function Home() {
                             <p className={styles.ultimoP} >
                                 participe agora para não perder nenhum detalhe!
                             </p>
-                            <a className={styles.buttonObg} href="https://devzapp.com.br/api-engennier/campanha/api/redirect/66293b4e230a9c00011b2fd2">QUERO PARTICIPAR!</a>
+                            <a className={styles.buttonObg} href="https://chat.whatsapp.com/EeTTIUSF5nQ3MyjykIfKJM">QUERO PARTICIPAR!</a>
                         </div>
                     </div>
                 </div>
