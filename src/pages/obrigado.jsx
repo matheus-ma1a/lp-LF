@@ -18,7 +18,7 @@ export default function Home() {
                 <div className={styles.wapper}>
 
                     <div className={styles.container}>
-                        <h2 className={styles.h1Obr} >Participe do nosso grupo exclusivo e <br /> receba em primeirão mão:</h2>
+                        <h2 className={styles.h1Obr} >Participe do nosso grupo exclusivo e  receba em primeirão mão:</h2>
                         <div className={styles.obg}>
                             <p><b className={styles.boldP} >✔ Dicas diretamente da boss e informaçoes antecipadas:</b>
                                 <br />saiba quais serão as peças e preços da sale</p>
@@ -26,7 +26,7 @@ export default function Home() {
                                 ✔ Cupom de desconto EXCLUSIVO
                             </p>
                             <p className={styles.ultimoP} >
-                                participe agora para não perder nenhum detalhe!
+                                Participe agora para não perder nenhum detalhe!
                             </p>
                             <a className={styles.buttonObg} href="https://chat.whatsapp.com/EeTTIUSF5nQ3MyjykIfKJM">QUERO PARTICIPAR!</a>
                         </div>

@@ -37,7 +37,7 @@ export default function Home() {
           <div className={styles.container}>
             <h1>WINTER SALE</h1>
             <p>
-              bye, bye inverno! prepare-se para a liqui mais esperada do ano!<br /><br />
+              Bye, Bye inverno! Prepare-se para a liqui mais esperada do ano!<br /><br />
 
               <b>Dia 08/07, 12hrs</b>: live com cupom exclusivo para dar início à nossa mega sale de inverno.
             </p>
