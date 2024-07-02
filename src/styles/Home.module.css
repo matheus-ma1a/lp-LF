@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.main {
+    background-image: url('/Group 4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: start;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    /* border: #c70101 solid; */
+    width: 60%;
+    margin-top: 3rem;
+}
+
+.email,.nome {
+    background-color: transparent;
+    border: solid 1px #ffffffb5;
+    height: 50px;
+    border-radius: 15px;
+    padding-left: 15px;
+    font-size: 1.2rem;
+    font-family: "Lato", sans-serif;
+
+}
+
+.button {
+    margin-top: 15px;
+    background-color: #621717;
+    border: none;
+    height: 45px;
+    width: 250px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.email::placeholder,.nome::placeholder {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+
+}
+
+
+.container {
+    /* border: #fff solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.containerObrigado {
+    /* border: #fff solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container>h1 {
+    /* font-family: "Libre Caslon Display", serif; */
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.5rem;
+    
+}
+
+.h1Obr{
+    
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.8rem; 
+}
+
+.container>p:first-of-type {
+    margin-bottom: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.container>p {
+    width: 500px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+
+
+.container>p>b{
+    font-weight: bold;
+}
+
+.wapper {
+    /* border: #00ff2a solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-right: 10%;
+}
+
+.wapper>button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 10px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.buttonObg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #621717;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #f8f8f8;
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 2rem;
+    width: 250px;
+}
+
+.obg{
+    /* border: #00ff2a solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    /* margin-left:  50px; */
+}
+
+.obg>p{
+    /* border: #001aff solid; */
+    font-size: 1.5rem;
+    width: 590px;
+    /* text-align: start; */
+}
+
+.boldP{
+    
+    font-weight: 600;
+}
+
+.cupomP{
+    
+    font-weight: 600;
+}
+
+.obg>p:first-of-type{
+    /* border: #e5ff00 solid; */
+    font-weight: 300;
+    margin-top: 3rem;
+
+}
+
+.ultimoP{
+    font-weight: 600;
+}
+
+
+@media (max-width: 768px) {
+    .main {
+        background-image: url('/Prancheta 2 1.jpg');
+        justify-content: start;
+        align-items: flex-start;
+        background-position: right;
+    }
+
+    .wapper{
+        margin: 0;
+        width: auto;
+        margin-top: 110px;
+    }
+
+    .container{
+        padding: 0 30px 30px;
+    }
+
+    .container>p{
+        width: auto;
+        font-size: 16px;
+    }
+
+    .form{
+        width: 70%;
+    }
+
+}
+@media (max-width: 414px) {
+    .main {
+        background-image: url('/Prancheta 2 1.jpg');
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-position: right;
+    }
+
+    .email,.nome{
+        height: 40px;
+        font-size: small;
+    }
+
+    .wapper{
+        margin: 0;
+        width: auto;
+        margin-top: 80px;
+    }
+    .wapperObrigado{
+        margin-top: 80px;
+    }
+
+    .container{
+        padding: 0 30px 20px;
+    }
+
+    .container>p{
+        width: auto;
+        font-size: 14px;
+    }
+
+    .container>h1{
+        font-size: 2.5rem;
+    }
+
+    .container>p:first-of-type{
+        margin-bottom: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .form{
+        width: 70%;
+    }
+
+    .obg>p{
+        /* border: #001aff solid; */
+        font-size: 1rem;
+        width: auto;
+    }
+
+}
