@@ -7,7 +7,7 @@ import { useEffect } from "react";
 export default function Home() {
 
     useEffect(() => {
-        // fbq('track', 'Lead');
+        fbq('track', 'Lead');
     }, [])
 
     return (
