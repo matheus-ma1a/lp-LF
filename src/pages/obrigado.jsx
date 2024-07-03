@@ -6,9 +6,10 @@ import { useEffect } from "react";
 
 export default function Home() {
 
-    useEffect(() => {
+    function addLead (){
         fbq('track', 'Lead');
-    }, [])
+
+    }
 
     return (
         <>
@@ -28,7 +29,7 @@ export default function Home() {
                             <p className={styles.ultimoP} >
                                 Participe agora para não perder nenhum detalhe!
                             </p>
-                            <a className={styles.buttonObg} href="https://chat.whatsapp.com/EeTTIUSF5nQ3MyjykIfKJM">QUERO PARTICIPAR!</a>
+                            <a className={styles.buttonObg} onClick={addLead} href="https://chat.whatsapp.com/EeTTIUSF5nQ3MyjykIfKJM">QUERO PARTICIPAR!</a>
                         </div>
                     </div>
                 </div>
